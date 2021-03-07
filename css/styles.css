@@ -7,7 +7,7 @@ h1{
 h2,h3,h6{
   color: #04588f;
 }
-#title, #workshops {
+#title, #workshops,#contact {
   background-color: #ccdde8;
   position: relative;
   text-align: left;
