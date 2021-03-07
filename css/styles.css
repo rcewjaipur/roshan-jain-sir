@@ -1,0 +1,30 @@
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #04588f;
+}
+h2,h3,h6{
+  color: #04588f;
+}
+#title, #workshops {
+  background-color: #ccdde8;
+  position: relative;
+  text-align: left;
+}
+
+.coverpage,.workshop,#membership{
+  padding-top: 6.5rem;
+  margin: 0 15%;
+  padding-bottom: 6.5rem;
+}
+
+.publications{
+  padding-top: 6.5rem;
+  margin: 0 15%;
+  padding-bottom: 6.5rem;
+}
+
+.img1{
+  float: left;
+}
