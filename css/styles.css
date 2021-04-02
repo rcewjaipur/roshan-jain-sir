@@ -7,7 +7,7 @@ h1{
 h2,h3,h6{
   color: #04588f;
 }
-#title, #workshops,#contact {
+#title, #workshops,#contact,#info {
   background-color: #ccdde8;
   position: relative;
   text-align: left;
@@ -27,4 +27,42 @@ h2,h3,h6{
 
 .img1{
   float: left;
+}
+
+.info-section .service-block-overlay:hover{
+	background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    box-shadow: 0 0 90px rgba(0, 0, 0, 0.1);
+    float: left;
+    margin-top: -10px;
+    position: relative;
+    width: 100%;
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+}
+.info-section .box i{
+    font-size:50%;
+}
+.info-section .box h2{
+    font-size:24px;
+    margin-bottom:20px;
+    margin-top:0;
+}
+.info-section h2{
+	font-weight: 700;
+	font-size: 2.5rem;
+}
+
+.info-section .head-sec{
+	float: left;
+	width:100%;
+}
+
+.info-section h3{
+	font-size: 1.4rem;
+}
+.info-section p {
+    font-size: 1rem;
+    line-height: 1.3rem;
 }
